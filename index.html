@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Superior O Horizonte</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <img src="imagens/horizonte.png" alt="Instituto Superior O Horizonte">
+              <P> <font size="30px"></font> <marquee><h1><font color="orange"> RIGOR, TRANSPARÊNCIA E QUALIDADE</font></H1></marquee></P>
+</body>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Início -->
+    <section id="home">
+        <h1>Bem-vindo ao Instituto Superior O Horizonte</h1>
+
+        <p>Oferecemos uma educação de qualidade para formar líderes e profissionais capacitados para o futuro.</p>
+
+        <a href="#cursos" class="cta-button">Explore nossos cursos</a>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p><b>O Instituto Superior O Horizonte,</b> foi fundado com o objetivo de proporcionar ensino de excelência e formar profissionais qualificados em diversas áreas do conhecimento. Nosso campus conta com infraestrutura moderna e professores altamente qualificados.</p>
+
+        <p><font color="orange"> <b>Quem Somos</font> </b></p>
+         <p>Instituto Superior O Horizonte (HZT) é uma instituição de ensino de referência, dedicada a oferecer uma educação de qualidade, com o objetivo de formar líderes e profissionais altamente capacitados para enfrentar os desafios do futuro. Nossa missão é proporcionar aos nossos alunos uma formação sólida, preparando-os para desempenharem papéis de destaque nas suas áreas de atuação, com ética, competência e responsabilidade social. </p>
+         <p>Além de ser uma instituição de ensino, o <b>Instituto Superior O Horizonte</b> é também uma cooperativa de caráter social, de direito privado e de utilidade pública, regida pelos seus estatutos, regulamentos internos e pelas leis vigentes na República da Guiné-Bissau. Somos guiados pelos princípios de solidariedade, cooperação e desenvolvimento comunitário, com foco na promoção de uma educação acessível e inclusiva. </p>
+         <p>No <b>HZT</b>, acreditamos que a educação é a chave para a transformação e o progresso da sociedade. Por isso, estamos comprometidos em oferecer uma experiência acadêmica de excelência, que prepare nossos estudantes para se tornarem agentes de mudança, prontos para inovar e contribuir positivamente para o desenvolvimento do país e do mundo. </p>
+         <p><b>Junte-se a nós e faça parte de uma instituição que valoriza o conhecimento, o desenvolvimento humano e o futuro de todos! </b></p>
+          <Center>
+            <figure><p><img src="imagens/bubaque.jpg" alt="Foto de exemplo" style="width: 500px; height: auto;"></p> 
+                <figcaption>Esta é a legenda da imagem.</figcaption>
+            </figure>
+
+          <p><img src="imagens/guinanos.jpg" alt="Foto de exemplo" style="width: 500px; height: auto;"></p> 
+      </Center>
+
+
+    </section>
+
+    <!-- Seção Cursos -->
+    <section id="cursos">
+        <h2>Cursos Oferecidos</h2>
+        <p>Oferecemos uma ampla variedade de cursos em diferentes áreas de conhecimento. Veja abaixo alguns de nossos cursos:</p>
+       
+       <ul>
+    <li><strong>Administração e Gestão dos Recursos Humanos</strong> - Duração: 4 anos (Licenciatura)</li>
+    <li><strong>Contabilidade e Gestão</strong> - Duração: 4 anos (Licenciatura)</li>
+    <li><strong>Turismo, Hotelaria e Comércio </strong>- Duração: 4 anos (Licenciatura)</li>
+    <li><strong>Serviço Social </strong>- Duração: 4 anos (Licenciatura)</li>
+    <li><strong>Ciências da Educação </strong>- Duração: 4 anos (Licenciatura)</li>
+    <li><strong>Educadora de Infância</strong> - Duração: 4 anos (Licenciatura)</li>
+    </ul>
+        <a href="#contato" class="cta-button">Inscreva-se agora</a>
+    </section>
+
+    <!-- Seção Eventos -->
+    <section id="eventos">
+        <h2>Eventos</h2>
+        <p>Fique por dentro dos próximos eventos do Instituto, como palestras, seminários e workshops.</p>
+        <ul>
+            <li><strong>Semana de Inovação</strong> - 20 a 22 de Janeiro de 2025</li>
+            <li><strong>Encontro de Ex-Alunos</strong> - 10 de Março de 2025</li>
+            <li><strong>Palestra sobre Empreendedorismo</strong> - 15 de Fevereiro de 2025</li>
+        </ul>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Tem alguma dúvida? Entre em contato conosco através do formulário abaixo:</p>
+        <form action="enviar_contato.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required placeholder="Escreva sua mensagem aqui..."></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Instituto Superior O Horizonte. Todos os direitos reservados.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a> | 
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
